@@ -28,7 +28,7 @@ def convert(message: telebot.types.Message):
 
     quote, base, amount = values
     total_base = CryptoConverter.convert(quote, base, amount)
-
+    # total_base.lower()
 
     text = f'Стоимость {amount} {quote} в {base} - {total_base}'
     bot.send_message(message.chat.id, text)

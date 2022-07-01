@@ -1,6 +1,6 @@
 
 # проверяемая последовательность чисел, введенная через пробел
-sequence_of_numbers =list(map( int, input('Введите через пробел : \n').split()))
+sequence_of_numbers =list(map( int, input('Введите число через пробел : \n').split()))
 print('sequence_of_numbers', sequence_of_numbers, type(sequence_of_numbers))
 
 # 1. Преобразование введённой последовательности в список
